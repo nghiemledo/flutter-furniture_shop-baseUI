@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:week06_furniture_shop/screens/cart_techShop.dart';
+import 'package:week06_furniture_shop/screens/home_techShop.dart';
 import 'package:week06_furniture_shop/screens/list_product.dart';
+import 'package:week06_furniture_shop/screens/detail_product.dart';
+import 'package:week06_furniture_shop/screens/productDetail_techShop.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: ListProduct(),
+      home: CartPage(),
     );
   }
 }

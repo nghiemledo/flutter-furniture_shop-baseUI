@@ -76,7 +76,7 @@ class ListProduct extends StatelessWidget {
                         ),
                         child: const Text(
                           "Kitchen",
-                          style:  TextStyle(color: Colors.black),
+                          style: TextStyle(color: Colors.black),
                         )),
                     const SizedBox(width: 7),
                   ],
@@ -90,13 +90,13 @@ class ListProduct extends StatelessWidget {
                   crossAxisCount: 2,
                   crossAxisSpacing: 10,
                   mainAxisSpacing: 10,
-                  shrinkWrap: true, // Giới hạn GridView để không chiếm hết không gian
-                  physics: AlwaysScrollableScrollPhysics(), // Cho phép cuộn
+                  shrinkWrap: true,
+                  physics: AlwaysScrollableScrollPhysics(),
                   children: [
                     SizedBox(
                       width: 300,
                       height: 200,
-                      child:  Container(
+                      child: Container(
                         color: Colors.transparent,
                         child: Column(
                           children: [
@@ -105,7 +105,10 @@ class ListProduct extends StatelessWidget {
                               height: 90,
                               fit: BoxFit.cover,
                             ),
-                            Text("Soft Element Jack", style: TextStyle(fontWeight: FontWeight.bold),),
+                            Text(
+                              "Soft Element Jack",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                             Text('57.50 VND'),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -114,27 +117,30 @@ class ListProduct extends StatelessWidget {
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
-                                    color: Colors.black,
-                                    shape: BoxShape.circle
-                                  ),
+                                      color: Colors.black,
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.pinkAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.blueAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
                               ],
                             )
@@ -145,7 +151,7 @@ class ListProduct extends StatelessWidget {
                     SizedBox(
                       width: 300,
                       height: 200,
-                      child:  Container(
+                      child: Container(
                         color: Colors.transparent,
                         child: Column(
                           children: [
@@ -154,7 +160,10 @@ class ListProduct extends StatelessWidget {
                               height: 90,
                               fit: BoxFit.cover,
                             ),
-                            Text("Leset Galant", style: TextStyle(fontWeight: FontWeight.bold),),
+                            Text(
+                              "Leset Galant",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                             Text('57.50 VND'),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -164,26 +173,29 @@ class ListProduct extends StatelessWidget {
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.black,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.pinkAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.blueAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
                               ],
                             )
@@ -194,7 +206,7 @@ class ListProduct extends StatelessWidget {
                     SizedBox(
                       width: 300,
                       height: 200,
-                      child:  Container(
+                      child: Container(
                         color: Colors.transparent,
                         child: Column(
                           children: [
@@ -203,7 +215,10 @@ class ListProduct extends StatelessWidget {
                               height: 90,
                               fit: BoxFit.cover,
                             ),
-                            Text("Chester Chair", style: TextStyle(fontWeight: FontWeight.bold),),
+                            Text(
+                              "Chester Chair",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                             Text('57.50 VND'),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -213,26 +228,29 @@ class ListProduct extends StatelessWidget {
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.black,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.pinkAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.blueAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
                               ],
                             )
@@ -243,7 +261,7 @@ class ListProduct extends StatelessWidget {
                     SizedBox(
                       width: 300,
                       height: 200,
-                      child:  Container(
+                      child: Container(
                         color: Colors.transparent,
                         child: Column(
                           children: [
@@ -252,7 +270,10 @@ class ListProduct extends StatelessWidget {
                               height: 90,
                               fit: BoxFit.cover,
                             ),
-                            Text("Avrora Chair", style: TextStyle(fontWeight: FontWeight.bold),),
+                            Text(
+                              "Avrora Chair",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                             Text('57.50 VND'),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -262,26 +283,29 @@ class ListProduct extends StatelessWidget {
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.black,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.pinkAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.blueAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
                               ],
                             )
@@ -292,7 +316,7 @@ class ListProduct extends StatelessWidget {
                     SizedBox(
                       width: 300,
                       height: 200,
-                      child:  Container(
+                      child: Container(
                         color: Colors.transparent,
                         child: Column(
                           children: [
@@ -301,7 +325,10 @@ class ListProduct extends StatelessWidget {
                               height: 90,
                               fit: BoxFit.cover,
                             ),
-                            Text("Chester Chair", style: TextStyle(fontWeight: FontWeight.bold),),
+                            Text(
+                              "Chester Chair",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                             Text('57.50 VND'),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -311,26 +338,29 @@ class ListProduct extends StatelessWidget {
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.black,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.pinkAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.blueAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
                               ],
                             )
@@ -341,7 +371,7 @@ class ListProduct extends StatelessWidget {
                     SizedBox(
                       width: 300,
                       height: 200,
-                      child:  Container(
+                      child: Container(
                         color: Colors.transparent,
                         child: Column(
                           children: [
@@ -350,7 +380,10 @@ class ListProduct extends StatelessWidget {
                               height: 90,
                               fit: BoxFit.cover,
                             ),
-                            Text("Avrora Chair", style: TextStyle(fontWeight: FontWeight.bold),),
+                            Text(
+                              "Avrora Chair",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                             Text('57.50 VND'),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -360,26 +393,29 @@ class ListProduct extends StatelessWidget {
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.black,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.pinkAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
-                                SizedBox(width: 5, height: 15,),
+                                SizedBox(
+                                  width: 5,
+                                  height: 15,
+                                ),
                                 Container(
                                   width: 7,
                                   height: 7,
                                   decoration: BoxDecoration(
                                       color: Colors.blueAccent,
-                                      shape: BoxShape.circle
-                                  ),
+                                      shape: BoxShape.circle),
                                 ),
                               ],
                             )
@@ -397,10 +433,19 @@ class ListProduct extends StatelessWidget {
             type: BottomNavigationBarType.fixed,
             fixedColor: Colors.black,
             items: const [
-              BottomNavigationBarItem(icon: Icon(Icons.home, color: Colors.black,), label:"Home"),
-              BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
-              BottomNavigationBarItem(icon: Icon(Icons.favorite_border_outlined), label: "Favourites"),
-              BottomNavigationBarItem(icon: Icon(Icons.person_2_outlined), label: "Profile"),
+              BottomNavigationBarItem(
+                  icon: Icon(
+                    Icons.home,
+                    color: Colors.black,
+                  ),
+                  label: "Home"),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.search), label: "Search"),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.favorite_border_outlined),
+                  label: "Favourites"),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.person_2_outlined), label: "Profile"),
             ]),
       ),
     );
